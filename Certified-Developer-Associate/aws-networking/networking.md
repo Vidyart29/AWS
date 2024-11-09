@@ -7,7 +7,7 @@ Subnets:
 - Subnets can pe made public and private to allow external internet access to resources within them.
 - Subnets within a VPC must be within the cidr range
 - subnet block size must be between a /16 and /28 
-**First 4 IP address of a subnet are reserved and cannot be used👇**
+- **First 4 IP address of a subnet are reserved and cannot be used👇**
 ```
 192.168.10.0 (Network address)
 192.168.10.1-192.168.10.3 (for AWS)
